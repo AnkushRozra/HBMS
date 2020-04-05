@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from pages.views import home_view,about_view,contact_view
-from Hotels.views import hotel_block_view
+from Hotels.views import hotel_block_view,add_hotel
 
 
 urlpatterns = [
@@ -24,6 +24,7 @@ urlpatterns = [
     path('contact/', contact_view),
     path('about/', about_view),
     path('admin/', admin.site.urls),
-    path('products/', hotel_block_view)
+    path('products/', hotel_block_view),
+    path('add_hotel/', add_hotel)
 
 ]
