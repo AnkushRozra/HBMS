@@ -21,6 +21,9 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,6 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a79FkGiWpB85acy4AJc6fi6Gwz" />
@@ -44,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,7 +127,7 @@
       <updated>1586075663672</updated>
       <workItem from="1586075772480" duration="35000" />
       <workItem from="1586075821886" duration="18877000" />
-      <workItem from="1586097991990" duration="1278000" />
+      <workItem from="1586097991990" duration="2799000" />
     </task>
     <servers />
   </component>
@@ -139,11 +143,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1586091639164" />
-    <state x="542" y="124" key="FileChooserDialogImpl" timestamp="1586099387912">
+    <state x="542" y="124" key="FileChooserDialogImpl" timestamp="1586100629837">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1586077522133" />
-    <state x="542" y="124" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586099387912" />
+    <state x="542" y="124" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586100629837" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1586096599901">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -168,10 +172,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1586081230504" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1586077524449">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="216" y="7" key="SettingsEditor" timestamp="1586100649398">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1586077524449" />
+    <state x="216" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586100649398" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HBMS$manage.coverage" NAME="manage Coverage Results" MODIFIED="1586079755491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

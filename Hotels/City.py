@@ -1,6 +1,6 @@
 city_choice = (
-    (1, "Pune"),
-    (2, "Mohali"),
-    (3, "Punjab"),
-    (4, "Delhi"),
-    )
+    ('Pune', '1'),
+    ('Mohali', '2'),
+    ('Punjab', '3'),
+    ('Delhi', '4'),
+)
